@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(./images/serkan-turk--gmNizU6ZCE-unsplash.jpg) center;
+    background-size:cover;
+   
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 50px;
+    font-family: 'Lemonada', cursive;
+    color :#07689f;
+}
+
+.search-bar{
+    position: absolute;
+    left: 30%;
+    top: 100px;
+    padding: 10px;
+    font-size: 17px; 
+    border: 1px solid #07689f ;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+}
+
+.button-search{
+    position: absolute;
+    right:30%;
+    top: 100px;
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background:#07689f;
+    color: white;
+    font-size: 17px;  
+    border: 1px solid #19d3da;
+    border-left: none; 
+    cursor: pointer;
+
+}
+
+.card2{
+    
+    width:36%;
+    padding:5px;
+    margin-left: 390px;
+    margin-top: 80px;
+    border-bottom: 30px;;
+    background: #f1f1f1;
+    box-shadow: #07689f;
+    border-radius: 5px;  
+    border: 4px solid #07689f;
+    text-align: center;
+    opacity: 0.9;
+   
+    
+}
+
+#weather-icon{
+  
+    size: 30px;
+    background-color:#f1f6f9;
+    box-sizing: content-box;
+    opacity: 3;
+}
+
+#city-name{
+    font-weight:bold;
+    padding-top: 20px;
+    color: #000000;
+}
+
+.temp1{
+    color: #16213e;
+    font-size:x-large;
+    font-weight: 500;
+    font-family: 'Abel', sans-serif;
+}
+#weather-type{
+    bottom:30px;
+    color: #16213e;
+    font-family: 'Abel', sans-serif;
+}
+
+#city-name{
+    color: #16213e;
+    bottom: 20px;;
+    font-size:40px;
+    font-family: 'Abel', sans-serif;
+
+}
+.card-body{
+    padding: 0;
+}
